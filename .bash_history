@@ -287,3 +287,5 @@ sudo nginx -t
 sudo systemctl reload nginx
 bind 127.0.0.1:10000 --workers 3 --timeout 300 run:app
 gunicorn --bind 127.0.0.1:10000 --workers 1 --timeout 300 run:app
+sudo apt update
+sudo apt install git -y
